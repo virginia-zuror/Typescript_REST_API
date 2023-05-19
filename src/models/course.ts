@@ -40,7 +40,7 @@ const Course = new Schema (
     lessons: [{type: mongoose.Schema.Types.ObjectId, ref:'Lesson'}],
 
 },
-{ timestamps: true }
+{ timestamps: true },
 )
 
 
